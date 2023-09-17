@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Sora', sans-serif;
+    background: #EFEFEF;
 }
 
 #headermain{
@@ -129,7 +130,7 @@ body {
 
 #section2{
     background: #EFEFEF;
-    min-height: 45rem;
+    min-height: 35rem;
 }
 
 .sect2-texto{
@@ -183,4 +184,48 @@ body {
     justify-content: center;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.item2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#section3{
+    background: #232640;
+    min-height: 55rem;
+}
+
+.sect3-head{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    color: #FFF;
+}
+
+.grid-sect3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    grid-gap: 1rem; /* Gap between grid items */
+    width: 60rem; /* Adjust the width as needed */
+    height: 20rem;
+    margin: 0 auto; /* Center the grid container horizontally */
+    padding-top: 1rem;
+}
+
+.grid2-sect3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    grid-gap: 1rem; /* Gap between grid items */
+    width: 60rem; /* Adjust the width as needed */
+    height: 20rem;
+    margin: 0 auto; /* Center the grid container horizontally */
+    padding-top: 1rem;
+}
+
+.grid-item {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
 }
